@@ -43,18 +43,14 @@ a {
 }
 
 .container {
-    width: 1000px;
+    width: 100%;
     margin: 0px auto;
 }
 
 /* Header */
 
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
-    height: 150px;
+    height: auto;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -62,7 +58,6 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
     width: 300px;
     margin: 0;
     padding: 0;
@@ -111,7 +106,6 @@ a {
 /* Search */
 
 #search {
-    float: right;
     width: 280px;
     height: 60px;
     padding: 20px 0px 0px 0px;
@@ -150,28 +144,20 @@ a {
 /* Menu */
 
 #menu {
-    float: right;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
-    margin: 0;
-    padding: 20px 0px 0px 0px;
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
     list-style: none;
     line-height: normal;
-}
-
-#menu li {
-    float: left;
 }
 
 #menu a {
     display: block;
     line-height: 100px;
-    margin-right: 1px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
     text-align: center;
@@ -225,14 +211,6 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
-    float: left;
-}
-
-.post .meta .posted {
-    float: right;
-}
-
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
@@ -245,7 +223,6 @@ a {
 
 .more {
     display: block;
-    float: left;
     width: 88px;
     padding: 5px 5px;
     margin-right: 10px;
@@ -257,7 +234,6 @@ a {
 
 .comments {
     display: block;
-    float: left;
     width: 88px;
     padding: 5px 5px;
     background: #222222;
@@ -364,7 +340,6 @@ a {
 }
 
 #marketing .text1 {
-    float: left;
     margin: 0px;
     padding: 0px;
     letter-spacing: -2px;
@@ -374,7 +349,6 @@ a {
 }
 
 #marketing .text2 {
-    float: right;
 }
 
 #marketing .text2 a {
