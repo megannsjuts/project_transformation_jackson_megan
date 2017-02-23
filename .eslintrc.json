@@ -52,7 +52,7 @@
     "comma-spacing": 2,
     "eol-last": 2,
     "quotes": [
-      2,
+      "tab",
       "single",
       "avoid-escape"
     ],
