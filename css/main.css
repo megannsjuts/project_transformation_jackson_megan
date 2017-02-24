@@ -67,8 +67,15 @@ a {
 
 #logo {
     margin: 0;
-    padding: 0;
+    padding: 30px 0.5em;
     color: #FFFFFF;
+}
+
+@media (min-width: 500px) {
+	#logo {
+		padding: 30px 0;
+	}
+
 }
 
 #logo h1 {
@@ -307,7 +314,7 @@ a {
 
 #sidebar li ul {
     margin: 0px 0px;
-    padding-bottom: 30px;
+    padding: 0px 0px 30px 10px;
 }
 
 #sidebar li li {
@@ -374,7 +381,7 @@ a {
 		color: #5E5E5E;
 }
 
-#banner {
+#banner, #banner img {
 	width: 100%;
 	height: auto;
 	margin: 0px auto;
