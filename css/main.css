@@ -182,6 +182,26 @@ a {
     color: #FFFFFF;
 }
 
+@media all and (min-width: 500px) {
+	nav li {
+		width: 50%;
+		display: inline-block;
+	}
+}
+
+@media all and (min-width: 750px) {
+	nav li {
+		width: calc(100% / 3);
+		}
+}
+
+@media all and (min-width: 900px) {
+	nav li {
+		width: calc(100% / 5);
+		}
+}
+
+
 /* Page */
 
 #page {
@@ -247,11 +267,23 @@ a {
     text-align: center;
     text-decoration: none;
 }
+@media (min-width: 750px) {
+	#content {
+		float: right;
+		margin-left: 1.5em;
+		width: calc(100% / 3 * 2);
+	}
+
+	#sidebar {
+		float: left;
+		width: calc(100% / 3 - 1.5em);
+	}
+}
 
 /* Sidebar */
 
 #sidebar {
-    margin: 0px;
+		margin: 0px;
     padding: 30px 0px 0px 0px;
 }
 
@@ -316,57 +348,24 @@ a {
 /* Footer */
 
 #footer {
-    margin: 0 auto;
+		clear: both;
+		margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
 }
 
 #footer p {
-    margin: 0;
+		margin: 0px;
     padding-top: 10px;
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
 }
 
 #footer a {
-    color: #5E5E5E;
-}
-
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
+		color: #5E5E5E;
 }
 
 #banner {
