@@ -8,6 +8,10 @@ html {
 	box-sizing: inherit;
 }
 
+.site-container {
+	max-width: 1000px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -50,11 +54,6 @@ a {
 
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
-}
-
-.container {
-    width: 100%;
-    margin: 0px auto;
 }
 
 /* Header */
@@ -319,7 +318,6 @@ a {
 /* Footer */
 
 #footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
