@@ -75,7 +75,6 @@ a {
 	#logo {
 		padding: 30px 0;
 	}
-
 }
 
 #logo h1 {
@@ -231,6 +230,10 @@ a {
     border-bottom: 1px solid #E7EBED;
 }
 
+.post + .post {
+	margin-top: 1.5em;
+}
+
 .post .title {
     padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
@@ -262,10 +265,9 @@ a {
 }
 
 .more {
-    display: block;
-    width: 88px;
+    display: inline-block;
     padding: 5px 5px;
-    margin-right: 10px;
+    margin-right: 30px;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -273,8 +275,7 @@ a {
 }
 
 .comments {
-    display: block;
-    width: 88px;
+    display: inline-block;
     padding: 5px 5px;
     background: #222222;
     color: #FFFFFF;
@@ -338,7 +339,7 @@ a {
 }
 
 #sidebar h2 {
-    height: 38px;
+    height: auto;
     padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
